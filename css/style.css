@@ -6,11 +6,15 @@
     --white: #FFF;
     --cloud: #F4F4FD;
     --ocean: #404BBF;
+    --text-color: #757575;
 }   
 
 body {
     background-color: var(--white);
+    color: var(--text-color);
     font-family: "roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }
 
 .main-header {
@@ -29,7 +33,6 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16em;
-    letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
     position: absolute;
@@ -44,13 +47,11 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16em;
-    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .menu {
     color: var(--navyblue);
-    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     list-style: none;
@@ -97,9 +98,7 @@ body {
 
 .header-email {
     color: var(--slate);
-    font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.32px;
     line-height: 1.5em;
     text-decoration: none;
     font-style: normal;
@@ -116,9 +115,7 @@ body {
 
 .header-tel {
     color: var(--slate);
-    font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.32px;
     line-height: 1.5em;
     text-decoration: none;
     font-style: normal;
@@ -165,7 +162,6 @@ body {
     top: 490px;
     left: 636px;
     color: var(--iris);
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.64px;
@@ -213,7 +209,6 @@ body {
 .feature-description {
     width: 264px;
     color: var(--slate);
-    font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.32px;
@@ -225,7 +220,6 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 1em;
-    letter-spacing: 0.72px;
     text-transform: capitalize;
     position: absolute;
     top: 1016px;
@@ -256,7 +250,6 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11em;
-    letter-spacing: 0.72px;
     text-transform: capitalize;
     position: absolute;
     top: 120px;
@@ -291,14 +284,12 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5em;
-    letter-spacing: 0.4px;
     padding: 0px 70px;
 }
 
 .team-role {
     color: var(--slate);
     text-align: center;
-    font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
 }
@@ -319,7 +310,6 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 21px1.16em;
-    letter-spacing: 0.54px;
     text-transform: uppercase;
     position: absolute;
     top: 101.5px;
@@ -332,23 +322,21 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16;
-    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .index-footer-desc {
     width: 264px;
     color: var(--cloud);
-    font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
-    letter-spacing: 0.32px;
     position: absolute;
     top: 120px;
     left: 200px;
 }
 
 .buttons {
+    list-style: none;
     display: -webkit-inline-box;
     padding-top: 96px;
     padding-left: 427px;
@@ -390,7 +378,6 @@ body {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 0.4px;
     line-height: 1.2em;
     padding: 0px 16px;
 }
@@ -404,28 +391,13 @@ body {
     padding: 0px 16px;
 }
 
-.features-row1 {
+.features {
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 45px;
     padding: 72px 156px 48px 156px;
-}
-
-.features-row2 {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    padding: 0px 156px 48px 156px;
-}
-
-.features-row3 {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    padding: 0px 156px 48px 156px;
 }
 
 .feature-list {
@@ -447,7 +419,6 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16em;
-    letter-spacing: 0.54px;
     text-transform: uppercase;
     position: absolute;
     top: 1836px;
@@ -460,7 +431,6 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16em;
-    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
@@ -469,7 +439,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
-    letter-spacing: 0.32px;
     width: 264px;
     position: absolute;
     top: 1864px;
